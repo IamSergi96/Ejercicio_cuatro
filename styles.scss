@@ -1,0 +1,99 @@
+
+@import "./styles/colors";
+
+.header{
+    color: $colorletter;
+    width: 100vw;
+    background-image: url("https://storage.googleapis.com/pod_public/750/166668.jpg");
+
+    background-position: 25% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600p;
+    }
+
+.header-containerup{
+    border-bottom: solid white 1px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: 40px;
+    padding-bottom: 0px;
+    color: white;
+    &__button{
+        height: 40px;
+        margin-top: 30px;
+    }
+    &-searcher{
+        margin-left: 600px;
+        display: flex;
+        float: right;
+        list-style: none;
+        height: 100px;
+        &__image{
+            margin: 10px;
+            width: 30px;
+            height: 30px;
+            float: right;
+        }
+    }
+
+}
+
+.header-containerdown{
+    width: 100vw;
+    margin-top: 300px;
+    margin-right: 40px;
+    &__link{
+        padding: 5px 50px 5px 50px;
+        background-color: $colorboton;
+        color: $colorletter;
+        width: 300px;
+        height: 50px;
+        border: none;
+        margin: 10px;
+    }
+    
+}
+.main-list{
+    display: flex;
+    list-style: none;
+    border-bottom: $colorbloquescatalogo;
+    color: grey;
+    &__car{
+        padding: 0px 15px 0px 15px;
+    }
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    &-section{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    &-section img{
+        width: 90px;
+        height: 60px;
+    }
+}
+.main-list2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    &__card{
+        border: grey solid 2px;
+        height: 200px;
+        width: 200px;
+    }
+    &__card img{
+        width: 150px;
+        height: 90px;
+        margin: 50px;
+    }
+}

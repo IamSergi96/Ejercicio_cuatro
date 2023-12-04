@@ -1,0 +1,26 @@
+.header{
+    width: 100%;
+    background-image: url("https://sportscar365.com/wp-content/uploads/2021/06/8fc12e0c-125b-48f0-860e-20b42108854e-orginal.jpeg");
+}
+.header-containerup{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: 40px;
+    color: white;
+
+}
+.header-container{
+    &__button{
+        border: none;
+        background-color: transparent;
+        width: 20px;
+        height: 20px;
+    }
+    &__image{
+        border: none;
+        background-color: transparent;
+        width: 40px;
+        height: 60px;
+    }
+}
